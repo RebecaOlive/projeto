@@ -1,0 +1,98 @@
+/* RESET CSS */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(9, 0 , 77, 0.65), rgba(9, 0, 77,0.65)), url(/Projeto7/img/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 140px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+    width: 100%;
+    text-align: right;
+    padding-right: 60px;
+}
+
+nav ul li {
+     display: inline-block;
+     margin: 10px 20px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 5px;
+    background: #F5168d;
+    color: #FFF;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.btn img{
+    margin-right: 10px;
+    width: 20px;
+}
+
+.conteudo {
+    margin-top: 14%;
+    color: #FFF;
+    max-width: 620px;
+}
+
+.conteudo h1 {
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 25px;
+}
+
+.conteudo form {
+    display: flex;
+    align-items: center;
+    background: #FFF;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.conteudo form input {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.conteudo form .btn {
+    font-size: 15px;
+    padding: 10px 30px;
+
+}
